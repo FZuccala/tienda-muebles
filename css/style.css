@@ -4,3 +4,60 @@
     --primario: #037bc0;
     --secundario: #8cbc00;
 }
+/**  Globales  **/
+.imagen-bg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.bg-azul{
+    background-color: var(--primario);
+}
+.btn-success{
+    background-color: var(--secundario)!important;
+    border: none;
+}
+/** Titulo **/
+h1.titulo{
+    font-family: var(--fuentePrimaria);
+}
+h2{
+    font-family: var(--fuentePrimaria);
+    font-size: 2.4rem;
+}
+h3{
+    font-family: var(--fuenteSecundaria);
+    font-weight: 500;
+}
+h1.titulo span{
+    color: var(--primario);
+}
+.nav-link{
+    color: black!important;
+    transition: all .3s ease-in-out;
+}
+.nav-link:hover{
+    color: #037bc0!important;
+}
+nav.navbar{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+/** Imagen Principal **/
+.imagen-principal{
+    background-image: url(../img/principal.jpg);
+    min-height: 35rem;
+}
+.imagen-nosotros{
+    background-image: url(../img/nosotros.jpg);
+    height: 30rem;
+}
+.azul-bg{
+    background-color: var(--primario);
+}
+.contenido-nosotros p{
+    font-size: 16px;
+}
+h2.titulo{
+    font-size: 3rem;
+}

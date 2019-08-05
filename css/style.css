@@ -61,3 +61,23 @@ nav.navbar{
 h2.titulo{
     font-size: 3rem;
 }
+.info-producto .btn-success:hover{
+    background-color: #80ab00!important;
+}
+.info-producto .precio{
+    font-size: 1.8rem;
+}
+/** Footer **/
+.footer .container{
+    border-top: 1px solid #e1e1e1;
+}
+.footer .titulo{
+    font-family: var(--fuentePrimaria);
+    font-size: 1.75rem;
+}
+.footer .nav-link{
+    color: #666!important;    
+}
+.footer .nav-link:hover{
+    color: #666!important;    
+}
